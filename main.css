@@ -1,0 +1,75 @@
+body {
+    height: 100vh;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 99%;
+    height: 70px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: #44494F;
+    color: white;
+    text-align: center;
+}
+
+header > img {
+    width: 60px;
+    height: 60px;
+}
+
+table {
+    background-color: #cdcfd0;
+    width: 1000px;
+    height: 500px;
+}
+
+table > thead {
+    font-size: 25px;
+    background-color: #44494F;
+    color: white;
+}
+
+table > tbody {
+    font-size: 25px;
+    text-align: center;
+}
+
+.td-numerico {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.cor1 {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+}
+
+.cor2 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+}
+
+.cor3 {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+}
+
+.cor {
+    width: 100px;
+}
