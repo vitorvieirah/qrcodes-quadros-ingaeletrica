@@ -1,0 +1,69 @@
+@media screen and (max-width: 1180px){
+    .texto-div1 > p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .img-texto > img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 870px){
+    .img-texto > img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 870px){
+    .texto-div1 > p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .img-texto > img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .texto-div1 > p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10%;
+    }
+}
+
+@media screen and (max-width: 530px){
+    header {
+        font-size: 15px;
+    }
+
+    .div2-header {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 660px){
+    .img-texto > img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .texto-div1 > p {
+        font-size: 12px;
+    }
+}

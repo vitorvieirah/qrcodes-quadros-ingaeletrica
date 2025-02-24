@@ -1,20 +1,21 @@
 body {
-    height: 100vh;
+    height: 160vh;
 }
 
 main {
-    height: 100vh;
+    height: 160vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding-left: 50px;
 }
 
 header {
     position: fixed;
     top: 0;
     width: 99%;
-    height: 70px;
+    height: 95px;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -23,6 +24,7 @@ header {
     background-color: #44494F;
     color: white;
     text-align: center;
+    align-items: center;
 }
 
 header > img {
@@ -52,24 +54,49 @@ table > tbody {
     font-weight: bold;
 }
 
-.cor1 {
-    width: 30px;
-    height: 30px;
-    background-color: yellow;
+td {
+    border-bottom: 1px solid #44494F;
+    border-left: 1px solid #44494F;
+    border-right: 1px solid #44494F;
 }
 
-.cor2 {
-    width: 30px;
-    height: 30px;
-    background-color: green;
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 60px;
 }
 
-.cor3 {
-    width: 30px;
-    height: 30px;
-    background-color: blue;
+
+.img-texto {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    align-items: center;
+    gap: 200px;
 }
 
-.cor {
+
+.img-texto > img {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #44494F;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 5px;
+    align-items: center;
+    gap: 200px;
+    width: 100%;
+}
+
+.divdiv2 {
+    height: 100px;
     width: 100px;
+}
+
+.texto-div1 {
+    flex-wrap: wrap;
 }
