@@ -1,9 +1,9 @@
 body {
-    height: 160vh;
+    height: 130vh;
 }
 
 main {
-    height: 160vh;
+    height: 130vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -32,34 +32,6 @@ header > img {
     height: 60px;
 }
 
-table {
-    background-color: #cdcfd0;
-    width: 1000px;
-    height: 500px;
-}
-
-table > thead {
-    font-size: 25px;
-    background-color: #44494F;
-    color: white;
-}
-
-table > tbody {
-    font-size: 25px;
-    text-align: center;
-}
-
-.td-numerico {
-    font-size: 23px;
-    font-weight: bold;
-}
-
-td {
-    border-bottom: 1px solid #44494F;
-    border-left: 1px solid #44494F;
-    border-right: 1px solid #44494F;
-}
-
 main {
     display: flex;
     flex-direction: column;
@@ -68,35 +40,46 @@ main {
 }
 
 
-.img-texto {
-    display: flex;
-    flex-direction: row;
-    font-size: 30px;
-    align-items: center;
-    gap: 200px;
-}
-
-
-.img-texto > img {
+main > img {
     width: 500px;
     height: 500px;
     border: 1px solid #44494F;
 }
 
-.div2 {
+.texto-manutencao {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+    font-size: 22px;
+}
+
+button {
     display: flex;
     flex-direction: row;
-    font-size: 5px;
     align-items: center;
-    gap: 200px;
-    width: 100%;
+    width: 8%;
+    height: 4%;
+    font-size: 20px;
+    justify-content: space-around;
+    border-radius: 5px;
+    background-color: #b2bbc6;
+    color: black;
+    font-weight: bold;
 }
 
-.divdiv2 {
-    height: 100px;
-    width: 100px;
+button:hover {
+    cursor: pointer;
+    background-color: #c6cbd0;
 }
 
-.texto-div1 {
-    flex-wrap: wrap;
+button:active {
+    background-color: #d2d2d2;
 }
+
+button > img {
+    width: 30px;
+    height: 30px;
+}
+
+
