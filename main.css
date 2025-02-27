@@ -5,10 +5,12 @@ body {
 main {
     height: 130vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-left: 50px;
+    gap: 100px;
+    padding: 60px;
 }
 
 header {
@@ -31,14 +33,6 @@ header > img {
     width: 60px;
     height: 60px;
 }
-
-main {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-    padding: 60px;
-}
-
 
 main > img {
     width: 500px;

@@ -67,5 +67,34 @@ main {
     padding: 60px;
 }
 
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 8%;
+    height: 4%;
+    font-size: 20px;
+    justify-content: space-around;
+    border-radius: 5px;
+    background-color: #b2bbc6;
+    color: black;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #c6cbd0;
+}
+
+button:active {
+    background-color: #d2d2d2;
+}
+
+button > img {
+    width: 25px;
+    height: 25px;
+}
+
+
 
 
