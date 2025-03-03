@@ -9,6 +9,7 @@ main {
     justify-content: center;
     flex-direction: column;
     gap: 50px;
+    padding: 60px;
 }
 
 header {
