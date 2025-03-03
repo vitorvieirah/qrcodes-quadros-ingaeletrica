@@ -1,23 +1,19 @@
 body {
-    height: 130vh;
+    height: 100% ;
 }
 
 main {
-    height: 130vh;
+    height: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-left: 50px;
-    gap: 100px;
-    padding: 60px;
 }
 
 header {
-    position: fixed;
     top: 0;
     width: 99%;
-    height: 95px;
+    height: 20%;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -27,12 +23,21 @@ header {
     color: white;
     text-align: center;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 header > img {
     width: 60px;
     height: 60px;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 60px;
+}
+
 
 main > img {
     width: 500px;
@@ -53,7 +58,7 @@ button {
     flex-direction: row;
     align-items: center;
     width: 8%;
-    height: 4%;
+    height: 8%;
     font-size: 20px;
     justify-content: space-around;
     border-radius: 5px;
@@ -72,8 +77,8 @@ button:active {
 }
 
 button > img {
-    width: 30px;
-    height: 30px;
+    width: 12%;
+    height: 12%;
 }
 
 

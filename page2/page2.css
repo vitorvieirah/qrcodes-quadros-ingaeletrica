@@ -1,18 +1,17 @@
 body {
-    height: 100vh;
+    height: 100%;
 }
 
 main {
-    height: 100vh;
+    height: 100%;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-left: 50px;
+    flex-direction: column;
+    gap: 50px;
 }
 
 header {
-    position: fixed;
     top: 0;
     width: 99%;
     height: 95px;
@@ -25,6 +24,7 @@ header {
     color: white;
     text-align: center;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 header > img {
@@ -60,13 +60,6 @@ td {
     border-right: 1px solid #44494F;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-    padding: 60px;
-}
-
 button {
     display: flex;
     flex-direction: row;
@@ -91,8 +84,8 @@ button:active {
 }
 
 button > img {
-    width: 25px;
-    height: 25px;
+    width: 12%;
+    height: 12%;
 }
 
 
