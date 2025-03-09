@@ -1,4 +1,11 @@
 @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 20px;
+    }
+    
     table {
         width: 100%;
         font-size: 18px;
